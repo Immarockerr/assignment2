@@ -48,6 +48,9 @@ Spaces, numbers, tabs and punctuation are unchanged.
 
 ## Screenshot of Program Output
 <img width="1176" height="922" alt="image" src="https://github.com/user-attachments/assets/9141ab4b-2771-470c-ae95-68b980aa4b8f" />
+<img width="1724" height="612" alt="image" src="https://github.com/user-attachments/assets/0f603a01-1e32-460b-9ec6-edfbb3bc3a99" />
+<img width="1787" height="587" alt="image" src="https://github.com/user-attachments/assets/d67824c3-161b-4579-9378-99738b5629c1" />
+
 
 
 
