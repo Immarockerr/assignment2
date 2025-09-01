@@ -47,7 +47,7 @@ Spaces, numbers, tabs and punctuation are unchanged.
 6) The program indicates whether, and how many, the original text and decrypted text differences.
 
 ## Screenshot of Program Output
-![Q1_Output](image.png)
-[Encrypted Text](encrypted_text.txt)
-[Decrypted Text](decrypted_text.txt)
+<img width="1176" height="922" alt="image" src="https://github.com/user-attachments/assets/9141ab4b-2771-470c-ae95-68b980aa4b8f" />
+
+
 
