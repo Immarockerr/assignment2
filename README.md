@@ -34,17 +34,17 @@ Spaces, numbers, tabs and punctuation are unchanged.
 
 ## Program Behavior
 
-1) When the program is executed:
+**1)** When the program is executed:
 
-2) The user asked for shift1 and shift2
+**2)** The user asked for shift1 and shift2
 
-3) The program reads raw_text.txt.
+**3)** The program reads raw_text.txt.
 
-4) An encrypted version is saved as encrypted_text.txt.
+**4)** An encrypted version is saved as encrypted_text.txt.
 
-5) A decrypted version is saved as decrypted_text.txt.
+**5)** A decrypted version is saved as decrypted_text.txt.
 
-6) The program indicates whether, and how many, the original text and decrypted text differences.
+**6)** The program indicates whether, and how many, the original text and decrypted text differences.
 
 ## Screenshot of Program Output
 <img width="1176" height="922" alt="image" src="https://github.com/user-attachments/assets/9141ab4b-2771-470c-ae95-68b980aa4b8f" />
