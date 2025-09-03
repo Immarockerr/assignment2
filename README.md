@@ -7,7 +7,7 @@
 - Esha 
 
 ## Description
-This program takes text from a file (raw_text.txt), then encrypts the text using two-user supplied shifts (shift1 and shift2) and saves the resulting text in encrypted_text.txt
+**Q1.** This program takes text from a file (raw_text.txt), then encrypts the text using two-user supplied shifts (shift1 and shift2) and saves the resulting text in encrypted_text.txt
 
 It then decrypts the text and saves it in decrypted_text.txt, then crosschecks it with the original file.
 
