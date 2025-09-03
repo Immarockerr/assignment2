@@ -94,7 +94,7 @@ Spaces, numbers, tabs and punctuation are unchanged.
 - Seasonal averages across all stations and years (writes average_temp.txt).
 - Per-station min, max, and range; finds station(s) with largest range (writes largest_temp_range_station.txt).
 - Per-station standard deviation; finds most stable (min std) and most variable (max std) stations (writes temperature_stability_stations.txt).
-- 
+ 
 **5)** All results are saved to the files listed above.
  
 ## Screenshot of Program Output
