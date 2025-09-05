@@ -53,7 +53,9 @@ Spaces, numbers, tabs and punctuation are unchanged.
 
 
 
-## Q2. This program reads temperature data from many CSV files stored in the temperatures/ folder (each file is one year). It ignores missing values and performs three analyses across all stations and all years:
+## Description
+
+Q2. This program reads temperature data from many CSV files stored in the temperatures/ folder (each file is one year). It ignores missing values and performs three analyses across all stations and all years:
 
 **1)** Seasonal Average — average temperature for each Australian season (Summer, Autumn, Winter, Spring). Results saved to average_temp.txt.
    
