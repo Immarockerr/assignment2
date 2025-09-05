@@ -61,16 +61,13 @@ Assumptions
  All CSV files are inside the temperatures/ folder.
 
  Each CSV file has at least these columns: Station, Date, Temperature. -Date can be in any standard format readable by pandas.to_datetime. Temperature is numeric; missing values may be 
-
 present and should be ignored.
 
  Australian seasons mapping: -Summer: December, January, February (12, 1,2) -Autumn: March, April, May (3, 4, 5) -Winter: June, July, August (6, 7, 8) -Spring: September, October, 
  November (9, 10, 11)
  
 Files Produced -average_temp.txt -Example line: Summer: 28.5°C -largest_temp_range_station.txt -Example line: Station ABC: Range 45.2°C (Max: 48.3°C, Min: 3.1°C) -If multiple stations
-
 tie, each is listed on its own line. -temperature_stability_stations.txt -Example lines: -Most Stable: Station XYZ: StdDev 2.3°C -Most Variable: Station DEF: StdDev 12.8°C -If multiple
-
 stations tie for stable/variable, list them all.
 
 Program Behavior (what happens when you run it)
