@@ -53,8 +53,8 @@ Spaces, numbers, tabs and punctuation are unchanged.
 
 
 
-## Q2. This program reads temperature data from many CSV files stored in the temperatures/ folder (each file is one year). It ignores missing values and performs
-three analyses across all stations and all years:
+## Q2. This program reads temperature data from many CSV files stored in the temperatures/ folder (each file is one year). It ignores missing values and performs three analyses across all stations and all years:
+
 **1)** Seasonal Average — average temperature for each Australian season (Summer, Autumn, Winter, Spring). Results saved to average_temp.txt.
    
 **2)** Temperature Range — station(s) with the largest temperature range (max − min). Results saved to largest_temp_range_station.txt.
@@ -63,17 +63,17 @@ three analyses across all stations and all years:
    
 # Assumptions
 
--All CSV files are inside the temperatures/ folder.
+- All CSV files are inside the temperatures/ folder.
 
--Each CSV file has at least these columns: Station, Date, Temperature. -Date can be in any standard format readable by pandas.to_datetime. Temperature is numeric; missing values may be 
+- Each CSV file has at least these columns: Station, Date, Temperature. -Date can be in any standard format readable by pandas.to_datetime. Temperature is numeric; missing values may be 
 
 present and should be ignored.
 
--Australian seasons mapping: -Summer: December, January, February (12, 1,2) -Autumn: March, April, May (3, 4, 5) -Winter: June, July, August (6, 7, 8) -Spring: September, October, 
+- Australian seasons mapping: -Summer: December, January, February (12, 1,2) -Autumn: March, April, May (3, 4, 5) -Winter: June, July, August (6, 7, 8) -Spring: September, October, 
 
  November (9, 10, 11)
  
--Files Produced -average_temp.txt -Example line: Summer: 28.5°C -largest_temp_range_station.txt -Example line: Station ABC: Range 45.2°C (Max: 48.3°C, Min: 3.1°C) -If multiple stations
+- Files Produced -average_temp.txt -Example line: Summer: 28.5°C -largest_temp_range_station.txt -Example line: Station ABC: Range 45.2°C (Max: 48.3°C, Min: 3.1°C) -If multiple stations
 
 tie, each is listed on its own line. -temperature_stability_stations.txt -Example lines: -Most Stable: Station XYZ: StdDev 2.3°C -Most Variable: Station DEF: StdDev 12.8°C -If multiple
 
@@ -88,21 +88,24 @@ stations tie for stable/variable, list them all.
 **3)** It ignores NaN temperature values in all calculations.
 
 **4)** It computes:
--Seasonal averages across all stations and years (writes average_temp.txt).
 
--Per-station min, max, and range; finds station(s) with largest range (writes largest_temp_range_station.txt).
+- Seasonal averages across all stations and years (writes average_temp.txt).
 
--Per-station standard deviation; finds most stable (min std) and most variable (max std) stations (writes temperature_stability_stations.txt).
+- Per-station min, max, and range; finds station(s) with largest range (writes largest_temp_range_station.txt).
+
+- Per-station standard deviation; finds most stable (min std) and most variable (max std) stations (writes temperature_stability_stations.txt).
 
 **5)** All results are saved to the files listed above.
 
 ## Screenshot of Program Output
+
 <img width="1149" height="731" alt="image" src="https://github.com/user-attachments/assets/cf6f26ba-ee2c-4c3d-a2b5-db3325bef7af" />
 <img width="1146" height="574" alt="image" src="https://github.com/user-attachments/assets/e277787d-dadc-4a36-ad45-7c8b6513f38d" />
 <img width="1145" height="582" alt="image" src="https://github.com/user-attachments/assets/dcd4d18e-1f42-4b8c-aa51-7a5d7db3fd0a" />
 <img width="1148" height="623" alt="image" src="https://github.com/user-attachments/assets/6c4746bb-1ba9-4d0e-9ef5-1c5cc54ebe44" />
 
 ## Q3. Recursive Geometric Pattern Using Turtle Graphics
+
 This program uses Python’s turtle graphics to generate a recursive geometric pattern that starts with a regular polygon and modifies its edges according to a recursive rule.
 
 ## Pattern Generation Rules
@@ -135,11 +138,11 @@ This program uses Python’s turtle graphics to generate a recursive geometric p
 
 **1)** The user is prompted to enter:
 
-   -Number of sides
+   - Number of sides
 
-   -Side length
+   - Side length
 
-   -Recursion depth
+   - Recursion depth
 
 **2)** A polygon is drawn using turtle graphics.
 
