@@ -1,7 +1,7 @@
 # Assignment 2 - Text Encryption and Decryption
 
 ## Group Members
-- Subha Sitaula
+- Subha Sitaula 
 - Diksha
 - Pawan Acharya
 - Esha 
