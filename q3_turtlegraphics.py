@@ -1,3 +1,4 @@
+# Assignment 2 - Q3: Generating a geometric pattern using Python's turtle graphics
 import turtle as t
 
 # open file for writing (append mode so you can see each run)
