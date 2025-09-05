@@ -29,7 +29,7 @@ def encrypt(text, shift1, shift2):
             # lowercase: shift forward by shift1*shift2
             result += shift_char(c, shift1 * shift2, True)
         elif c.isupper():
-            # uppercase: shift forward by shift2**2
+            # uppercase: shift forward by shift2*2
             result += shift_char(c, shift2 ** 2, True)
         else:
             result += c
